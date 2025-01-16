@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CopilotLive/sdk-ios",
+      "state" : {
+        "revision" : "ef5df991a9ba45f22b472fe82274fd001ef4b995"
+      }
+    }
+  ],
+  "version" : 2
+}
