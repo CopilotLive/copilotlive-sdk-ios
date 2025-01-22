@@ -60,6 +60,23 @@ To integrate the Copilot SDK using CocoaPods:
    
 5. Open the `.xcworkspace` file to start using the SDK.
 
+
+## Permissions
+
+#### Microphone Permission
+
+Steps to Add Microphone Permission
+
+Update `Info.plist`
+Add the `NSMicrophoneUsageDescription` key in your app's Info.plist file. This key defines the message displayed to users when the app requests microphone access.
+
+Example entry in `Info.plist`:
+
+```ruby
+<key>NSMicrophoneUsageDescription</key>
+<string>We need access to your microphone for voice interactions.</string>
+```
+
 ## Usage
 
 ### Initialization
@@ -77,7 +94,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 func initializeCopilotSDK() {
      // Create a user object with placeholder data. Replace these values with real user data.
-     let userData = CopilotUser(
+     let user = CopilotUser(
          fullName: "", // The full name of the user
          phoneNumber: "", // The user's phone number
          profileImageUrl: "", // URL for the user's profile image
@@ -88,14 +105,14 @@ func initializeCopilotSDK() {
       // Define appearance settings for the Copilot UI
       let appearance = CopilotAppearance(
           navigationBarBackgroundColor: "#E9FBFB", // LBackground for the navigation bar
-          backgroundColor: "#E9FBFB", // Background for the main UI
+          backgroundColor: "#E9FBFB", // Background for the copilot view
           navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
       )
         
       // Create a configuration object with the URL, user data, and appearance settings
       let config = CopilotConfig(
           url: "https://test.ai.copilot.live/", // Copilot URL
-          user: userData, // Pass the user data
+          user: user, // Pass the user data
           appearance: appearance // Pass the appearance settings
       )
         
@@ -107,19 +124,40 @@ func initializeCopilotSDK() {
 
 ### User Management
 
-#### Setting the User
-
-To set the authenticated user:
+To personalize the chat experience, you need to set the authenticated user by providing their details. This allows Copilot to respond more effectively based on user-specific information.
 
 ```swift
 let user = CopilotUser(
-            fullName: "", // The full name of the user
-            phoneNumber: "", // The user's phone number
-            profileImageUrl: "", // URL for the user's profile image
-            emailAddress: "", // The user's email address
-            userIdentifier: "" // A unique identifier for the user
-        )
+    fullName: "", // The full name of the user
+    phoneNumber: "", // The user's phone number
+    profileImageUrl: "", // URL for the user's profile image
+    emailAddress: "", // The user's email address
+    userIdentifier: "" // A unique identifier for the user
+)
+```
+
+#### You can set the user using any of the following options:
+
+##### 1. Set user during initialization 
+
+```swift   
+Copilot.shared.initialize(
+    with: CopilotConfig(
+        user: user
+    )
+)
+```
+
+##### 2. Set user after initialization 
+
+```swift
 Copilot.shared.setUser(user)
+```
+
+##### 3. Set user when the user logs in 
+
+```swift
+Copilot.shared.notifyLoginSuccess(user)
 ```
 
 #### Logging Out
@@ -128,21 +166,6 @@ To log out the current user:
 
 ```swift
 Copilot.shared.logout()
-```
-
-#### Notifying Login Success
-
-Notify the SDK of a successful login:
-
-```swift
-let user = CopilotUser(
-            fullName: "", // The full name of the user
-            phoneNumber: "", // The user's phone number
-            profileImageUrl: "", // URL for the user's profile image
-            emailAddress: "", // The user's email address
-            userIdentifier: "" // A unique identifier for the user
-        )
-Copilot.shared.notifyLoginSuccess(user)
 ```
 
 ### Customizing Appearance
@@ -243,21 +266,6 @@ Displays the conversation interface on the specified view controller.
   -  `initialValue` (String?): The initial value to to provide context or predefined input for the conversation. (optional).
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
-## Permissions
-
-#### Microphone Permission
-
-Steps to Add Microphone Permission
-
-Update `Info.plist`
-Add the `NSMicrophoneUsageDescription` key in your app's Info.plist file. This key defines the message displayed to users when the app requests microphone access.
-
-Example entry in `Info.plist`:
-
-```ruby
-<key>NSMicrophoneUsageDescription</key>
-<string>We need access to your microphone for voice interactions.</string>
-```
 
 ## Troubleshooting
 
