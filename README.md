@@ -124,8 +124,6 @@ func initializeCopilotSDK() {
 
 ### User Management
 
-To personalize the chat experience, you need to set the authenticated user by providing their details. This allows Copilot to respond more effectively based on user-specific information.
-
 ```swift
 let user = CopilotUser(
     fullName: "", // The full name of the user
@@ -136,9 +134,11 @@ let user = CopilotUser(
 )
 ```
 
-#### You can set the user using any of the following options:
+#### Setting the User in Copilot SDK
+The Copilot SDK provides multiple ways to set the user for tracking and personalization purposes. You can choose the method that best fits your app's workflow:
 
-##### 1. Set user during initialization 
+##### 1. Set the User During Initialization
+You can set the user directly when initializing the Copilot SDK. This is ideal when the user information is readily available at the time of app launch or SDK setup.
 
 ```swift   
 Copilot.shared.initialize(
@@ -148,17 +148,21 @@ Copilot.shared.initialize(
 )
 ```
 
-##### 2. Set user after initialization 
+##### 2. Set the User After Initialization
+If the user information becomes available later in the app lifecycle, you can set the user after the SDK has already been initialized.
 
 ```swift
 Copilot.shared.setUser(user)
 ```
+This method is useful when user details are fetched asynchronously, such as after a remote API call.
 
-##### 3. Set user when the user logs in 
+##### 3. Set the User on Login Success
+When a user successfully logs into your app, you can notify the SDK to set the user. This ensures that the user's session is correctly tracked from the moment they log in.
 
 ```swift
 Copilot.shared.notifyLoginSuccess(user)
 ```
+This approach is particularly helpful in apps where user login is optional or delayed until a specific interaction.
 
 #### Logging Out
 
