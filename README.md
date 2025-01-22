@@ -263,7 +263,7 @@ Displays the conversation interface on the specified view controller.
 - **Parameters:**
   - `controller` (UIViewController?): The view controller where the conversation will be displayed.
   - `initialMessage` (String?): The initial message to display in the conversation (optional).
-  -  `initialValue` (String?): The initial value to to provide context or predefined input for the conversation. (optional).
+  -  `initialValue` (String?): The initial value to provide context or predefined input for the conversation. (optional).
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
 
