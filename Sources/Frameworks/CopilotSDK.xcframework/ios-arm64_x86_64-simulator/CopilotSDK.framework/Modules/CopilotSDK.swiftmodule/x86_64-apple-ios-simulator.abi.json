@@ -1,0 +1,2275 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CopilotUser",
+        "printedName": "CopilotUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fullName",
+            "printedName": "fullName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A4UserV8fullNameSSSgvp",
+            "mangledName": "$s10CopilotSDK0A4UserV8fullNameSSSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A4UserV8fullNameSSSgvg",
+                "mangledName": "$s10CopilotSDK0A4UserV8fullNameSSSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A4UserV11phoneNumberSSSgvp",
+            "mangledName": "$s10CopilotSDK0A4UserV11phoneNumberSSSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A4UserV11phoneNumberSSSgvg",
+                "mangledName": "$s10CopilotSDK0A4UserV11phoneNumberSSSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profileImageUrl",
+            "printedName": "profileImageUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A4UserV15profileImageUrlSSSgvp",
+            "mangledName": "$s10CopilotSDK0A4UserV15profileImageUrlSSSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A4UserV15profileImageUrlSSSgvg",
+                "mangledName": "$s10CopilotSDK0A4UserV15profileImageUrlSSSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emailAddress",
+            "printedName": "emailAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A4UserV12emailAddressSSSgvp",
+            "mangledName": "$s10CopilotSDK0A4UserV12emailAddressSSSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A4UserV12emailAddressSSSgvg",
+                "mangledName": "$s10CopilotSDK0A4UserV12emailAddressSSSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userIdentifier",
+            "printedName": "userIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A4UserV14userIdentifierSSSgvp",
+            "mangledName": "$s10CopilotSDK0A4UserV14userIdentifierSSSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A4UserV14userIdentifierSSSgvg",
+                "mangledName": "$s10CopilotSDK0A4UserV14userIdentifierSSSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fullName:phoneNumber:profileImageUrl:emailAddress:userIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotUser",
+                "printedName": "CopilotSDK.CopilotUser",
+                "usr": "s:10CopilotSDK0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CopilotSDK0A4UserV8fullName11phoneNumber15profileImageUrl12emailAddress14userIdentifierACSSSg_A4Itcfc",
+            "mangledName": "$s10CopilotSDK0A4UserV8fullName11phoneNumber15profileImageUrl12emailAddress14userIdentifierACSSSg_A4Itcfc",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CopilotSDK0A4UserV",
+        "mangledName": "$s10CopilotSDK0A4UserV",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CopilotAppearance",
+        "printedName": "CopilotAppearance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navigationBarBackgroundColor",
+            "printedName": "navigationBarBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvp",
+            "mangledName": "$s10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvg",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvs",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvs",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvM",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV28navigationBarBackgroundColorSSvM",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A10AppearanceV15backgroundColorSSvp",
+            "mangledName": "$s10CopilotSDK0A10AppearanceV15backgroundColorSSvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV15backgroundColorSSvg",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV15backgroundColorSSvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV15backgroundColorSSvs",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV15backgroundColorSSvs",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV15backgroundColorSSvM",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV15backgroundColorSSvM",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navigationBarTitle",
+            "printedName": "navigationBarTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A10AppearanceV18navigationBarTitleSSvp",
+            "mangledName": "$s10CopilotSDK0A10AppearanceV18navigationBarTitleSSvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV18navigationBarTitleSSvg",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV18navigationBarTitleSSvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV18navigationBarTitleSSvs",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV18navigationBarTitleSSvs",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A10AppearanceV18navigationBarTitleSSvM",
+                "mangledName": "$s10CopilotSDK0A10AppearanceV18navigationBarTitleSSvM",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(navigationBarBackgroundColor:backgroundColor:navigationBarTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotAppearance",
+                "printedName": "CopilotSDK.CopilotAppearance",
+                "usr": "s:10CopilotSDK0A10AppearanceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CopilotSDK0A10AppearanceV28navigationBarBackgroundColor010backgroundG00dE5TitleACSS_S2Stcfc",
+            "mangledName": "$s10CopilotSDK0A10AppearanceV28navigationBarBackgroundColor010backgroundG00dE5TitleACSS_S2Stcfc",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10CopilotSDK0A10AppearanceV",
+        "mangledName": "$s10CopilotSDK0A10AppearanceV",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CopilotDelegate",
+        "printedName": "CopilotDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didLoadConversation",
+            "printedName": "didLoadConversation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A8DelegateP19didLoadConversationyyF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP19didLoadConversationyyF",
+            "moduleName": "CopilotSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
+            "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoadConversation",
+            "printedName": "didFailToLoadConversation(withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A8DelegateP25didFailToLoadConversation9withErrorySS_tF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP25didFailToLoadConversation9withErrorySS_tF",
+            "moduleName": "CopilotSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
+            "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveDeepLink",
+            "printedName": "didReceiveDeepLink(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A8DelegateP18didReceiveDeepLink3urlySS_tF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP18didReceiveDeepLink3urlySS_tF",
+            "moduleName": "CopilotSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
+            "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10CopilotSDK0A8DelegateP",
+        "mangledName": "$s10CopilotSDK0A8DelegateP",
+        "moduleName": "CopilotSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Copilot",
+        "printedName": "Copilot",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Copilot",
+                "printedName": "CopilotSDK.Copilot",
+                "usr": "s:10CopilotSDK0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A0C6sharedACvpZ",
+            "mangledName": "$s10CopilotSDK0A0C6sharedACvpZ",
+            "moduleName": "CopilotSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Copilot",
+                    "printedName": "CopilotSDK.Copilot",
+                    "usr": "s:10CopilotSDK0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A0C6sharedACvgZ",
+                "mangledName": "$s10CopilotSDK0A0C6sharedACvgZ",
+                "moduleName": "CopilotSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotConfig",
+                "printedName": "CopilotSDK.CopilotConfig",
+                "usr": "s:10CopilotSDK0A6ConfigC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C10initialize4withyAA0A6ConfigC_tF",
+            "mangledName": "$s10CopilotSDK0A0C10initialize4withyAA0A6ConfigC_tF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUser",
+            "printedName": "setUser(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotUser",
+                "printedName": "CopilotSDK.CopilotUser",
+                "usr": "s:10CopilotSDK0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C7setUseryyAA0aD0VF",
+            "mangledName": "$s10CopilotSDK0A0C7setUseryyAA0aD0VF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAppearance",
+            "printedName": "setAppearance(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotAppearance",
+                "printedName": "CopilotSDK.CopilotAppearance",
+                "usr": "s:10CopilotSDK0A10AppearanceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C13setAppearanceyyAA0aD0VF",
+            "mangledName": "$s10CopilotSDK0A0C13setAppearanceyyAA0aD0VF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notifyLoginSuccess",
+            "printedName": "notifyLoginSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotUser",
+                "printedName": "CopilotSDK.CopilotUser",
+                "usr": "s:10CopilotSDK0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C18notifyLoginSuccessyyAA0A4UserVF",
+            "mangledName": "$s10CopilotSDK0A0C18notifyLoginSuccessyyAA0A4UserVF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C6logoutyyF",
+            "mangledName": "$s10CopilotSDK0A0C6logoutyyF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showConversations",
+            "printedName": "showConversations(on:initialMessage:initialValue:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CopilotSDK.CopilotDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotDelegate",
+                    "printedName": "CopilotSDK.CopilotDelegate",
+                    "usr": "s:10CopilotSDK0A8DelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C17showConversations2on14initialMessage0F5Value8delegateySo16UIViewControllerCSg_SSSgAlA0A8Delegate_pSgtF",
+            "mangledName": "$s10CopilotSDK0A0C17showConversations2on14initialMessage0F5Value8delegateySo16UIViewControllerCSg_SSSgAlA0A8Delegate_pSgtF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfig",
+            "printedName": "getConfig()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CopilotSDK.CopilotConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotConfig",
+                    "printedName": "CopilotSDK.CopilotConfig",
+                    "usr": "s:10CopilotSDK0A6ConfigC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C9getConfigAA0aD0CSgyF",
+            "mangledName": "$s10CopilotSDK0A0C9getConfigAA0aD0CSgyF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CopilotSDK0A0C",
+        "mangledName": "$s10CopilotSDK0A0C",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CopilotConfig",
+        "printedName": "CopilotConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A6ConfigC3urlSSvp",
+            "mangledName": "$s10CopilotSDK0A6ConfigC3urlSSvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC3urlSSvg",
+                "mangledName": "$s10CopilotSDK0A6ConfigC3urlSSvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CopilotSDK.CopilotUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotUser",
+                    "printedName": "CopilotSDK.CopilotUser",
+                    "usr": "s:10CopilotSDK0A4UserV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A6ConfigC4userAA0A4UserVSgvp",
+            "mangledName": "$s10CopilotSDK0A6ConfigC4userAA0A4UserVSgvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CopilotSDK.CopilotUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CopilotUser",
+                        "printedName": "CopilotSDK.CopilotUser",
+                        "usr": "s:10CopilotSDK0A4UserV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC4userAA0A4UserVSgvg",
+                "mangledName": "$s10CopilotSDK0A6ConfigC4userAA0A4UserVSgvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CopilotSDK.CopilotUser?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CopilotUser",
+                        "printedName": "CopilotSDK.CopilotUser",
+                        "usr": "s:10CopilotSDK0A4UserV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC4userAA0A4UserVSgvs",
+                "mangledName": "$s10CopilotSDK0A6ConfigC4userAA0A4UserVSgvs",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC4userAA0A4UserVSgvM",
+                "mangledName": "$s10CopilotSDK0A6ConfigC4userAA0A4UserVSgvM",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appearance",
+            "printedName": "appearance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotAppearance",
+                "printedName": "CopilotSDK.CopilotAppearance",
+                "usr": "s:10CopilotSDK0A10AppearanceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvp",
+            "mangledName": "$s10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotAppearance",
+                    "printedName": "CopilotSDK.CopilotAppearance",
+                    "usr": "s:10CopilotSDK0A10AppearanceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvg",
+                "mangledName": "$s10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvg",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotAppearance",
+                    "printedName": "CopilotSDK.CopilotAppearance",
+                    "usr": "s:10CopilotSDK0A10AppearanceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvs",
+                "mangledName": "$s10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvs",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvM",
+                "mangledName": "$s10CopilotSDK0A6ConfigC10appearanceAA0A10AppearanceVvM",
+                "moduleName": "CopilotSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:user:appearance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CopilotConfig",
+                "printedName": "CopilotSDK.CopilotConfig",
+                "usr": "s:10CopilotSDK0A6ConfigC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CopilotSDK.CopilotUser?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotUser",
+                    "printedName": "CopilotSDK.CopilotUser",
+                    "usr": "s:10CopilotSDK0A4UserV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CopilotSDK.CopilotAppearance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CopilotAppearance",
+                    "printedName": "CopilotSDK.CopilotAppearance",
+                    "usr": "s:10CopilotSDK0A10AppearanceV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CopilotSDK0A6ConfigC3url4user10appearanceACSS_AA0A4UserVSgAA0A10AppearanceVSgtcfc",
+            "mangledName": "$s10CopilotSDK0A6ConfigC3url4user10appearanceACSS_AA0A4UserVSgAA0A10AppearanceVSgtcfc",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10CopilotSDK0A6ConfigC",
+        "mangledName": "$s10CopilotSDK0A6ConfigC",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CopilotSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 28,
+      "value": "\"CopilotSDKResources.bundle\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1528,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1795,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
+      "length": 26,
+      "value": "\"Microphone Access Denied\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 67,
+      "value": "\"To use this feature, please enable microphone access in Settings.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 15,
+      "value": "\"Open Settings\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "Dictionary",
+      "offset": 2395,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2482,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2698,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2709,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2740,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2833,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2846,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 2852,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2893,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2906,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 2911,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2950,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 2962,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 3030,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3601,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "Array",
+      "offset": 3732,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4832,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4880,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4928,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5015,
+      "length": 201,
+      "value": "\"copilot?.(\"event\", \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5079,
+      "length": 13,
+      "value": "\"\", {hostId: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5109,
+      "length": 10,
+      "value": "\"\",email: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5127,
+      "length": 9,
+      "value": "\"\",name: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5143,
+      "length": 11,
+      "value": "\"\",mobile: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5163,
+      "length": 20,
+      "value": "\"\",profile_pic_url: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5199,
+      "length": 5,
+      "value": "\"\",});\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5285,
+      "length": 5,
+      "value": "\"\\n\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5503,
+      "length": 145,
+      "value": "\"copilot?.(\"event\", \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5579,
+      "length": 14,
+      "value": "\"\", {message: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5603,
+      "length": 11,
+      "value": "\"\", value: \"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5625,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5628,
+      "length": 4,
+      "value": "\"\"});\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5705,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5717,
+      "length": 5,
+      "value": "\"\\n\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5830,
+      "length": 67,
+      "value": "\"copilot?.('event', '\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5893,
+      "length": 5,
+      "value": "\"');\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 694,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 994,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 14,
+      "value": "\"copilot_back\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2310,
+      "length": 14,
+      "value": "\"copilot_more\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2776,
+      "length": 30,
+      "value": "\"Invalid configuration or URL\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3073,
+      "length": 30,
+      "value": "\"Invalid configuration or URL\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3190,
+      "length": 46,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3235,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3238,
+      "length": 80,
+      "value": "\"Welcome back, \""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 1,
+      "value": "\"! You have successfully logged in.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3623,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 34,
+      "value": "\"CopilotSDK.CopilotConversationsViewController\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotConversationsViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4666,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotUser.swift",
+      "kind": "StringLiteral",
+      "offset": 2653,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotUser.swift",
+      "kind": "StringLiteral",
+      "offset": 2698,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/CopilotUser.swift",
+      "kind": "StringLiteral",
+      "offset": 2746,
+      "length": 12,
+      "value": "\"CoPilot AI\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 2242,
+      "length": 42,
+      "value": "\"CoPilotSDK has already been initialized.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2421,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 2439,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 2488,
+      "length": 30,
+      "value": "\"Invalid configuration or URL\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 87,
+      "value": "\"Error: SDK is not initialized. Please call `initialize(with:)` before setting a user.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 3244,
+      "length": 91,
+      "value": "\"Error: SDK is not initialized. Please call `initialize(with:)` before setting appearance.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 4609,
+      "length": 71,
+      "value": "\"Error: SDK is not initialized. Please call `initialize(with:)` first.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 4787,
+      "length": 27,
+      "value": "\"Error: Controller is nil.\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "StringLiteral",
+      "offset": 4998,
+      "length": 28,
+      "value": "\"Failed to load CoPilot URL\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5515,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Copilot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 9,
+      "value": "\"setUser\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 17,
+      "value": "\"sendUserMessage\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 19,
+      "value": "\"toggleContextMenu\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 21,
+      "value": "\"initialAgentMessage\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 9,
+      "value": "\"setUser\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 17,
+      "value": "\"sendUserMessage\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 19,
+      "value": "\"toggleContextMenu\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 21,
+      "value": "\"initialAgentMessage\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 14,
+      "value": "\"showTitleBar\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/Library\/Developer\/Xcode\/DerivedData\/CopilotSDK-fkvkyhpwqmaskbewbadcvwukdlil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CopilotSDK\/IntermediateBuildFilesPath\/CopilotSDK.build\/Release-iphonesimulator\/CopilotSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
+      "length": 14,
+      "value": "\"copilot_back\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/Library\/Developer\/Xcode\/DerivedData\/CopilotSDK-fkvkyhpwqmaskbewbadcvwukdlil\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CopilotSDK\/IntermediateBuildFilesPath\/CopilotSDK.build\/Release-iphonesimulator\/CopilotSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 14,
+      "value": "\"copilot_more\""
+    }
+  ]
+}

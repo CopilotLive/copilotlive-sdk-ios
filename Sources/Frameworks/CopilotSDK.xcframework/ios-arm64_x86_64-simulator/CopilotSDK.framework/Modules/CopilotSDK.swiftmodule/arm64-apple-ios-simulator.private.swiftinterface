@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CopilotSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+@_exported import CopilotSDK
+import DeveloperToolsSupport
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CopilotUser {
+  public let fullName: Swift.String?
+  public let phoneNumber: Swift.String?
+  public let profileImageUrl: Swift.String?
+  public let emailAddress: Swift.String?
+  public let userIdentifier: Swift.String?
+  public init(fullName: Swift.String? = nil, phoneNumber: Swift.String? = nil, profileImageUrl: Swift.String? = nil, emailAddress: Swift.String? = nil, userIdentifier: Swift.String? = nil)
+}
+public struct CopilotAppearance {
+  public var navigationBarBackgroundColor: Swift.String
+  public var backgroundColor: Swift.String
+  public var navigationBarTitle: Swift.String
+  public init(navigationBarBackgroundColor: Swift.String = "#FFFFFF", backgroundColor: Swift.String = "#FFFFFF", navigationBarTitle: Swift.String = "CoPilot AI")
+}
+public protocol CopilotDelegate : AnyObject {
+  func didLoadConversation()
+  func didFailToLoadConversation(withError error: Swift.String)
+  func didReceiveDeepLink(url: Swift.String)
+}
+@_hasMissingDesignatedInitializers final public class Copilot {
+  public static let shared: CopilotSDK.Copilot
+  final public func initialize(with config: CopilotSDK.CopilotConfig)
+  final public func setUser(_ user: CopilotSDK.CopilotUser)
+  final public func setAppearance(_ appearance: CopilotSDK.CopilotAppearance)
+  final public func notifyLoginSuccess(_ user: CopilotSDK.CopilotUser)
+  final public func logout()
+  final public func showConversations(on controller: UIKit.UIViewController?, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
+  final public func getConfig() -> CopilotSDK.CopilotConfig?
+  @objc deinit
+}
+final public class CopilotConfig {
+  final public var url: Swift.String {
+    get
+  }
+  final public var user: CopilotSDK.CopilotUser?
+  final public var appearance: CopilotSDK.CopilotAppearance
+  public init(url: Swift.String, user: CopilotSDK.CopilotUser? = nil, appearance: CopilotSDK.CopilotAppearance? = nil)
+  @objc deinit
+}

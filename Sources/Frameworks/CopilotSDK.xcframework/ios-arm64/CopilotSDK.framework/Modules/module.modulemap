@@ -1,0 +1,11 @@
+framework module CopilotSDK {
+  umbrella header "CopilotSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module CopilotSDK.Swift {
+  header "CopilotSDK-Swift.h"
+  requires objc
+}
