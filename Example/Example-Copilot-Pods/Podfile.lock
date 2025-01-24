@@ -1,22 +1,22 @@
 PODS:
-  - CopilotSDK (0.0.1)
+  - CopilotSDK (1.0.0)
 
 DEPENDENCIES:
-  - CopilotSDK (from `https://github.com/CopilotLive/sdk-ios`, branch `feature/package`)
+  - CopilotSDK (from `https://github.com/CopilotLive/sdk-ios`, branch `feature/update_sdk`)
 
 EXTERNAL SOURCES:
   CopilotSDK:
-    :branch: feature/package
+    :branch: feature/update_sdk
     :git: https://github.com/CopilotLive/sdk-ios
 
 CHECKOUT OPTIONS:
   CopilotSDK:
-    :commit: 3eccf4436b774813be853d44a94434842dfc9398
+    :commit: 2806781430606f49fe4d821aa5c5182ba3c6e96b
     :git: https://github.com/CopilotLive/sdk-ios
 
 SPEC CHECKSUMS:
-  CopilotSDK: 2933eafd1217c66fd7d8a33ad40e6b25302fb455
+  CopilotSDK: 69aa6a7d48aa7a796a3cf4432363781082437fd5
 
-PODFILE CHECKSUM: e33a0ba77807341f265efff630caa13f75ec9ebb
+PODFILE CHECKSUM: 3b58ceb910530323b598272d44f1274a93697a37
 
 COCOAPODS: 1.16.2

@@ -13,6 +13,6 @@ FOUNDATION_EXPORT double CopilotSDKVersionNumber;
 //! Project version string for CopilotSDK.
 FOUNDATION_EXPORT const unsigned char CopilotSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <CoPilotSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <CopilotSDK/PublicHeader.h>
 
 
