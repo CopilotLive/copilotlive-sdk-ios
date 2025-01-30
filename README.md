@@ -243,39 +243,39 @@ extension MyViewController: CopilotDelegate {
 
 ## API Reference
 
-### `initialize(with config: CopilotConfig)`
+### `initialize`
 
 Initializes the SDK with the provided configuration.
 
 - **Parameters:**
   - `config` (CopilotConfig): The configuration containing the URL, user details, and UI appearance.
 
-### `setUser(_ user: CopilotUser)`
+### `setUser`
 
 Sets the authenticated user for the SDK.
 
 - **Parameters:**
   - `user` (CopilotUser): The user object to be set.
 
-### `logout()`
+### `logout`
 
 Logs out the currently authenticated user.
 
-### `notifyLoginSuccess(_ user: CopilotUser)`
+### `notifyLoginSuccess`
 
 Notifies the SDK of a successful user login.
 
 - **Parameters:**
   - `user` (CopilotUser): The user object representing the successfully logged-in user.
 
-### `setAppearance(_ appearance: CopilotAppearance)`
+### `setAppearance`
 
 Sets the UI appearance for the SDK.
 
 - **Parameters:**
   - `appearance` (CopilotAppearance): The appearance object to be set.
 
-### `showConversations(on controller: UIViewController, initialMessage: String?, initialValue: String?, delegate: CopilotDelegate?)`
+### `showConversations`
 
 Displays the conversation interface on the specified view controller.
 
@@ -285,9 +285,9 @@ Displays the conversation interface on the specified view controller.
   -  `initialValue` (String?): The initial value to provide context or predefined input for the conversation. (optional).
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
-### `makeCall(on controller: UIViewController, delegate: CopilotDelegate?)`
+### `makeCall`
 
- Initiate a voice call on the specified view controller.
+ Initiates a voice call on the specified view controller.
 
 - **Parameters:**
   - `controller` (UIViewController): The view controller on which the voice call will be initiated.
