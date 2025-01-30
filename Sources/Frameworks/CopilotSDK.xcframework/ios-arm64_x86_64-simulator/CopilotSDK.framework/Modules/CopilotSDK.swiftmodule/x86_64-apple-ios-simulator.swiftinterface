@@ -13,6 +13,15 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+final public class CopilotConfig {
+  final public var url: Swift.String {
+    get
+  }
+  final public var user: CopilotSDK.CopilotUser?
+  final public var appearance: CopilotSDK.CopilotAppearance
+  public init(url: Swift.String, user: CopilotSDK.CopilotUser? = nil, appearance: CopilotSDK.CopilotAppearance? = nil)
+  @objc deinit
+}
 public struct CopilotUser {
   public let fullName: Swift.String?
   public let phoneNumber: Swift.String?
@@ -39,16 +48,7 @@ public protocol CopilotDelegate : AnyObject {
   final public func setAppearance(_ appearance: CopilotSDK.CopilotAppearance)
   final public func notifyLoginSuccess(_ user: CopilotSDK.CopilotUser)
   final public func logout()
-  final public func showConversations(on controller: UIKit.UIViewController?, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
-  final public func getConfig() -> CopilotSDK.CopilotConfig?
-  @objc deinit
-}
-final public class CopilotConfig {
-  final public var url: Swift.String {
-    get
-  }
-  final public var user: CopilotSDK.CopilotUser?
-  final public var appearance: CopilotSDK.CopilotAppearance
-  public init(url: Swift.String, user: CopilotSDK.CopilotUser? = nil, appearance: CopilotSDK.CopilotAppearance? = nil)
+  final public func showConversations(on controller: UIKit.UIViewController, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
+  final public func makeCall(on controller: UIKit.UIViewController, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
   @objc deinit
 }

@@ -49,7 +49,7 @@ To integrate the Copilot SDK using CocoaPods:
 1. Add the following line to your `Podfile`:
    
    ```ruby
-   pod 'CopilotSDK', :git => 'https://github.com/CopilotLive/sdk-ios'
+   pod 'CopilotSDK'
    ```
    
 3. Run the command:
@@ -104,7 +104,7 @@ func initializeCopilotSDK() {
         
       // Define appearance settings for the Copilot UI
       let appearance = CopilotAppearance(
-          navigationBarBackgroundColor: "#E9FBFB", // LBackground for the navigation bar
+          navigationBarBackgroundColor: "#E9FBFB", // Background for the navigation bar
           backgroundColor: "#E9FBFB", // Background for the copilot view
           navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
       )
@@ -179,7 +179,7 @@ To set a custom appearance:
 ```swift
 let appearance = CopilotAppearance(
                    navigationBarBackgroundColor: "#E9FBFB", // Background for the navigation bar
-                   backgroundColor: "#E9FBFB", // Background for the main UI
+                   backgroundColor: "#E9FBFB", // Background for the copilot view
                    navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
         )
 Copilot.shared.setAppearance(appearance)
@@ -198,6 +198,21 @@ class MyViewController: UIViewController {
 
     func showConversation() {
         Copilot.shared.showConversations(on: self, initialMessage: "Hello!", delegate: self)
+    }
+}
+```
+
+#### Make a Call
+
+To initiate a voice call:
+
+```swift
+import UIKit
+
+class MyViewController: UIViewController {
+
+    func makeCall() {
+        Copilot.shared.makeCall(on: self, delegate: self)
     }
 }
 ```
@@ -228,48 +243,55 @@ extension MyViewController: CopilotDelegate {
 
 ## API Reference
 
-### `initialize(with config: CopilotConfig)`
+### `initialize`
 
 Initializes the SDK with the provided configuration.
 
 - **Parameters:**
   - `config` (CopilotConfig): The configuration containing the URL, user details, and UI appearance.
 
-### `setUser(_ user: CopilotUser)`
+### `setUser`
 
 Sets the authenticated user for the SDK.
 
 - **Parameters:**
   - `user` (CopilotUser): The user object to be set.
 
-### `logout()`
+### `logout`
 
 Logs out the currently authenticated user.
 
-### `notifyLoginSuccess(_ user: CopilotUser)`
+### `notifyLoginSuccess`
 
 Notifies the SDK of a successful user login.
 
 - **Parameters:**
   - `user` (CopilotUser): The user object representing the successfully logged-in user.
 
-### `setAppearance(_ appearance: CopilotAppearance)`
+### `setAppearance`
 
 Sets the UI appearance for the SDK.
 
 - **Parameters:**
   - `appearance` (CopilotAppearance): The appearance object to be set.
 
-### `showConversations(on controller: UIViewController?, initialMessage: String?, initialValue: String?, delegate: CopilotDelegate?)`
+### `showConversations`
 
 Displays the conversation interface on the specified view controller.
 
 - **Parameters:**
-  - `controller` (UIViewController?): The view controller where the conversation will be displayed.
+  - `controller` (UIViewController): The view controller where the conversation will be displayed.
   - `initialMessage` (String?): The initial message to display in the conversation (optional).
   -  `initialValue` (String?): The initial value to provide context or predefined input for the conversation. (optional).
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
+### `makeCall`
+
+ Initiates a voice call on the specified view controller.
+
+- **Parameters:**
+  - `controller` (UIViewController): The view controller on which the voice call will be initiated.
+  - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
 ## Troubleshooting
 

@@ -66,8 +66,8 @@ extension AppDelegate {
         
         // Define appearance settings for the Copilot UI
         let appearance = CopilotAppearance(
-            navigationBarBackgroundColor: "#E9FBFB", // LBackground for the navigation bar
-            backgroundColor: "#E9FBFB", // Background for the main UI
+            navigationBarBackgroundColor: "#E9FBFB", // Background for the navigation bar
+            backgroundColor: "#E9FBFB", // Background for the copilot view
             navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
         )
         
