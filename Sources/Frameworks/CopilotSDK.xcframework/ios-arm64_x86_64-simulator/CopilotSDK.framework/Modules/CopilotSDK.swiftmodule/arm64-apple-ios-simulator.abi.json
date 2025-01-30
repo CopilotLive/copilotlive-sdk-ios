@@ -1725,13 +1725,13 @@
       "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Coversations\/CopilotConversationsViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2878,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Coversations\/CopilotConversationsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2931,
+      "offset": 2932,
       "length": 4,
       "value": "true"
     },
@@ -1815,14 +1815,14 @@
     {
       "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Copilot.swift",
       "kind": "BooleanLiteral",
-      "offset": 6692,
+      "offset": 6735,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Copilot.swift",
       "kind": "BooleanLiteral",
-      "offset": 6994,
+      "offset": 7094,
       "length": 5,
       "value": "false"
     },

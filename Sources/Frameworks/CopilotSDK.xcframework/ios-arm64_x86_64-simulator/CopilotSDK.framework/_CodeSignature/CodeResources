@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		b810uKLGLwA8Zq8Y1E+mGy+eRWU=
+		ECBQU36TQeLNNpB23oG+GYl29SA=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		b810uKLGLwA8Zq8Y1E+mGy+eRWU=
+		ECBQU36TQeLNNpB23oG+GYl29SA=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uRM7Pf1AkHeUiSJpBoL/JQvI4Zo5okQ7tWhAete1wJQ=
+			KNtO8mifY0lyYLdkvj7COkFySZ2opLVcXMssdigKUPA=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uRM7Pf1AkHeUiSJpBoL/JQvI4Zo5okQ7tWhAete1wJQ=
+			KNtO8mifY0lyYLdkvj7COkFySZ2opLVcXMssdigKUPA=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
