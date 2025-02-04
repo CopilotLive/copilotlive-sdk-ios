@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                   CopilotSDK for AI assistant.
                    DESC
 
-  spec.homepage     = "https://platform.copilot.live/"
+  spec.homepage     = "https://github.com/CopilotLive/sdk-ios.git"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

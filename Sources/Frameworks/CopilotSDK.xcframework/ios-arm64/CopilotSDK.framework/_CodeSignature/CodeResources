@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		P5yQmg9LR2A2SrVUumE0ZGd/Pjw=
+		abm2tUUf2FLJKlIy3AxX/wl3VeM=
 		</data>
 		<key>Headers/CopilotSDK-Swift.h</key>
 		<data>
-		KbkmRbQAZUqHMuZhhqbjRBLHypI=
+		kDX8vfiTJT1yt23ZLpAlmPmxUoI=
 		</data>
 		<key>Headers/CopilotSDK.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Rj+TnBeqnNJ/BlSITOrdfJypIj8=
+		ucD67ImXa8Aplm00xOPDmXTba6M=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DKp90xdNnYPtAnQEOWbyo6Nu/yA=
+		/LW3CqQnAJ2j1cDw0rVgtXnN464=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		w3oIauwinMFDlpyaThkCs/ddZFA=
+		nkTs5EfiIa8J1Ysh0JOF3go/Av8=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		b+/cIA2YByUU3sZ+7A05TvPm6g0=
+		X7Z4S9AG7J2+YUh70+EUq/fJz2Y=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		w3oIauwinMFDlpyaThkCs/ddZFA=
+		nkTs5EfiIa8J1Ysh0JOF3go/Av8=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Cd/uApZL8HU3SwrWa2s/geUPKjQ=
+		/bcMhkDirRiEx222ZnsVxrakppk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gQbBDeZTTBojWtDcnpoGyt2WkC1S2NB2H1guSbJ/LvA=
+			Fti1Z4FHwxjufAXeSay2teqrH6JD9X/DXqIPDkDN/8U=
 			</data>
 		</dict>
 		<key>Headers/CopilotSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xf+C1KYHM2nm96dDFvJWeC56uv6Tw6s0xARupX72tRw=
+			q9+73tl2SNPo1XuMAAFo0yQVX4LcGZ7pYbfYhzHx7tI=
 			</data>
 		</dict>
 		<key>Headers/CopilotSDK.h</key>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wJ5iUTC1ZejwBqihUwMiXLf5tN2M/3LycXse+YqlvTU=
+			Tz0ySg9TWgkpEFD1j4imBsvqoUqf231XpZpsfB6de7U=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xuiPOisI9Gx7C4l4nFdo2WwfUjxbAF4F3HktHbLIH0=
+			HszQK+Q1avF43OHZ6L2Q8jy8LUvHt9eU1uGKHe0OD2Y=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lVwuoHKKiDZiHA2D2Ks/4BcTWCC3xQBz2uSw0omusvE=
+			oLeosgh066lPLaFj5ARmhv4TS6BlsbmG6Fil/o+iNg8=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6xuiPOisI9Gx7C4l4nFdo2WwfUjxbAF4F3HktHbLIH0=
+			HszQK+Q1avF43OHZ6L2Q8jy8LUvHt9eU1uGKHe0OD2Y=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jl7LTn9aiXB/M5gVlwqlkS+ypXV7oLWUKLrDtLnF+zc=
+			MFcds0HPQ80yzFQFj5kZ8Mh74muXoR1hjsP5hkCT1T4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
