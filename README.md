@@ -5,14 +5,20 @@
 
 The Copilot SDK is a robust framework designed for seamless integration into iOS applications, offering a streamlined experience for developers. It supports both Swift Package Manager (SPM) and CocoaPods, ensuring flexibility and ease of integration. The minimum deployment target is iOS 13.
 
+## SDK Requirements
+
+1. **Login** to the [Copilot Platform](https://platform.copilot.live/)
+
+2. **Open your Copilot** and Navigate to the **Deploy** section to retrieve the integration token.
+
 ## Features
 
 - Easy integration with SPM and CocoaPods.
 - Compatible with iOS 13 and later.
 - Modular and extensible design.
 - Lightweight and optimized for performance.
-- Provides conversation interfaces and deep linking capabilities.
-- User authentication and UI appearance customization support.
+- Provides **conversation interfaces**, **deep linking capabilities**, and **voice call assistance**.
+- Supports **user authentication** and **UI appearance customization**.
 
 ## Requirements
 
@@ -24,27 +30,23 @@ The Copilot SDK is a robust framework designed for seamless integration into iOS
 
 ### Swift Package Manager
 
-To integrate the Copilot SDK using Swift Package Manager:
+To integrate the Copilot SDK using **Swift Package Manager**:
 
-1. Open your project in Xcode
-   - Make sure you're using Xcode 11 or later as SPM support was introduced in Xcode 11.
-2. Go to your Project Settings
-   - Select your project in the Xcode navigation.
-   - In the project editor, select the target you want to add the package to.
-4. Add Package Dependency
-   - In the project settings, click on the "Package Dependencies" tab.
-   - Click the + button to add a new package.
-5. Enter the Package URL
+1. Open your project in Xcode (version 11+ is required).
+2. Go to Project Settings.
+3. Select your project and navigate to the Package Dependencies tab.
+4. Click the **+ button** to add a new package.
+5. Enter the package URL:
    
    ```ruby
    https://github.com/CopilotLive/sdk-ios
    ```
    
-7. Choose the desired version or branch and click **Add Package**.
+6. Choose the desired version or branch and click **Add Package**.
 
 ### CocoaPods
 
-To integrate the Copilot SDK using CocoaPods:
+To integrate the Copilot SDK using **CocoaPods**:
 
 1. Add the following line to your `Podfile`:
    
@@ -58,24 +60,23 @@ To integrate the Copilot SDK using CocoaPods:
    pod install
    ```
    
-5. Open the `.xcworkspace` file to start using the SDK.
+3. Open the `.xcworkspace` file to start using the **SDK**.
 
 
 ## Permissions
 
+The Copilot SDK requires certain permissions to enable core functionalities like voice interactions and seamless communication. Ensure the necessary permissions are granted in the app’s `Info.plist` file.
+
 #### Microphone Permission
 
-Steps to Add Microphone Permission
-
-Update `Info.plist`
-Add the `NSMicrophoneUsageDescription` key in your app's Info.plist file. This key defines the message displayed to users when the app requests microphone access.
-
-Example entry in `Info.plist`:
+To enable microphone access, update the `Info.plist` file by adding the following key:
 
 ```ruby
 <key>NSMicrophoneUsageDescription</key>
 <string>We need access to your microphone for voice interactions.</string>
 ```
+
+This permission is required to enable voice-based interactions, including making calls and using the assistant hands-free.
 
 ## Usage
 
@@ -109,9 +110,9 @@ func initializeCopilotSDK() {
           navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
       )
         
-      // Create a configuration object with the URL, user data, and appearance settings
+      // Create a configuration object with the token, user data, and appearance settings
       let config = CopilotConfig(
-          url: "https://test.ai.copilot.live/", // Copilot URL
+          token: "YOUR_COPILOT_TOKEN", // Replace with your actual Copilot token
           user: user, // Pass the user data
           appearance: appearance // Pass the appearance settings
       )
@@ -189,7 +190,7 @@ Copilot.shared.setAppearance(appearance)
 
 #### Displaying Conversations
 
-To show the conversation interface:
+This feature enables users to interact with the Copilot assistant through a text-based conversation interface. Users can send and receive messages within the app, making it easy to communicate with the assistant for support, guided workflows, or general assistance. The conversation history is maintained, allowing users to resume past interactions seamlessly. This ensures a smooth and real-time messaging experience without switching between different platforms.
 
 ```swift
 import UIKit
@@ -204,7 +205,9 @@ class MyViewController: UIViewController {
 
 #### Make a Call
 
-To initiate a voice call:
+This feature allows users to communicate with the Copilot assistant using voice instead of text. It is useful for hands-free interactions, accessibility needs, or situations where speaking is more convenient than typing. Users can initiate a real-time voice conversation within the app, making it easy to get assistance without manually typing queries. The call feature provides a seamless experience by enabling direct access to voice-based support without additional steps.
+
+To enable this feature, ensure that microphone access is granted in `Info.plist`.
 
 ```swift
 import UIKit
@@ -248,7 +251,7 @@ extension MyViewController: CopilotDelegate {
 Initializes the SDK with the provided configuration.
 
 - **Parameters:**
-  - `config` (CopilotConfig): The configuration containing the URL, user details, and UI appearance.
+  - `config` (CopilotConfig): The configuration containing the token, user details, and UI appearance.
 
 ### `setUser`
 
@@ -293,6 +296,7 @@ Displays the conversation interface on the specified view controller.
   - `controller` (UIViewController): The view controller on which the voice call will be initiated.
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
+
 ## Troubleshooting
 
 ### Common Issues
@@ -301,7 +305,6 @@ Displays the conversation interface on the specified view controller.
   - Ensure the deployment target is set to iOS 13 or later.
 - **Error: "Module not found"**
   - Verify that the SDK is correctly installed via SPM or CocoaPods.
-- **Error: "Failed to load CoPilot URL"**
-  - Ensure the configuration URL is valid and accessible.
-
+- **Error: "Failed to load Copilot"**
+  - Ensure the configuration token is valid and accessible.
 

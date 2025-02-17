@@ -47,7 +47,7 @@ extension AppDelegate {
     /// 4. Initializing the SDK with the configured `CopilotConfig`.
     ///
     /// - Note:
-    ///   - Ensure the `url` parameter in the `CopilotConfig` points to the correct Copilot URL.
+    ///   - Ensure the `token` parameter in the `CopilotConfig` points to the correct Copilot token.
     ///   - Replace placeholder values in `CopilotUser` with actual user data before initialization.
     ///
     /// - Example Usage:
@@ -71,9 +71,9 @@ extension AppDelegate {
             navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
         )
         
-        // Create a configuration object with the URL, user data, and appearance settings
+        // Create a configuration object with the token, user data, and appearance settings
         let config = CopilotConfig(
-            url: "https://test.ai.copilot.live/", // Copilot URL
+            token: "YOUR_COPILOT_TOKEN", // Replace with your actual Copilot token
             user: userData, // Pass the user data
             appearance: appearance // Pass the appearance settings
         )

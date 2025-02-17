@@ -1,14 +1,15 @@
 {
+  "originHash" : "52bb3ddc512c27dfcc404e3211c9769b18b3320306acb8dc46df781a932e1216",
   "pins" : [
     {
       "identity" : "sdk-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CopilotLive/sdk-ios",
       "state" : {
-        "branch" : "feature/update_sdk",
-        "revision" : "4eaebbf3ecde9423ce2c07d7fe875305c4455e05"
+        "branch" : "main",
+        "revision" : "ee9b8a574dd17e35dc95b3694ffc2d5d7f689e3e"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

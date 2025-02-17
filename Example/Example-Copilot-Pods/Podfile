@@ -5,6 +5,6 @@ target 'Example-Copilot-Pods' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'CopilotSDK', :git => 'https://github.com/CopilotLive/sdk-ios', :branch => 'feature/update_sdk'
+  pod 'CopilotSDK', :git => 'https://github.com/CopilotLive/sdk-ios', :branch => 'main'
 
 end
