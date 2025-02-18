@@ -8,6 +8,7 @@ import DeveloperToolsSupport
 import Foundation
 import Swift
 import SwiftUI
+import SystemConfiguration
 import UIKit
 import WebKit
 import _Concurrency
@@ -31,10 +32,11 @@ public struct CopilotUser {
   public init(fullName: Swift.String? = nil, phoneNumber: Swift.String? = nil, profileImageUrl: Swift.String? = nil, emailAddress: Swift.String? = nil, userIdentifier: Swift.String? = nil)
 }
 public struct CopilotAppearance {
-  public var navigationBarBackgroundColor: Swift.String
+  public var title: Swift.String
   public var backgroundColor: Swift.String
-  public var navigationBarTitle: Swift.String
-  public init(navigationBarBackgroundColor: Swift.String = "#FFFFFF", backgroundColor: Swift.String = "#FFFFFF", navigationBarTitle: Swift.String = "Copilot AI")
+  public var navigationBarTintColor: Swift.String
+  public var navigationBarBackgroundColor: Swift.String
+  public init(title: Swift.String = "Copilot AI", backgroundColor: Swift.String = "#FFFFFF", navigationBarTintColor: Swift.String = "#000000", navigationBarBackgroundColor: Swift.String = "#FFFFFF")
 }
 public protocol CopilotDelegate : AnyObject {
   func didLoadConversation()
