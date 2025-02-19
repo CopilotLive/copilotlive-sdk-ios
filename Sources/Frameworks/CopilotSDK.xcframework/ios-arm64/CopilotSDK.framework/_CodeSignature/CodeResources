@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/LW3CqQnAJ2j1cDw0rVgtXnN464=
+		PfINUrVF1Y+O3Vb8lFQbDGmVaKs=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		nkTs5EfiIa8J1Ysh0JOF3go/Av8=
+		AmcxW6hV5cgNuzjWEdiP1alCW1A=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		X7Z4S9AG7J2+YUh70+EUq/fJz2Y=
+		+HrfZpDFhfWJbm8LqOnwi+D/CCA=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		nkTs5EfiIa8J1Ysh0JOF3go/Av8=
+		AmcxW6hV5cgNuzjWEdiP1alCW1A=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/bcMhkDirRiEx222ZnsVxrakppk=
+		0LRF5NLoCZYmPC+lFRqnuJGLcfI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tz0ySg9TWgkpEFD1j4imBsvqoUqf231XpZpsfB6de7U=
+			lsjI0v1yHwiy+pqe+HVeES493DrFeoGn+W0sjeUSXg8=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HszQK+Q1avF43OHZ6L2Q8jy8LUvHt9eU1uGKHe0OD2Y=
+			kiPYqnf3XosmMt6DWiJOaqkyHB9UVF4a1g1FEVIh3Rk=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oLeosgh066lPLaFj5ARmhv4TS6BlsbmG6Fil/o+iNg8=
+			XzjNjQAPElvHsgf/LIgp2ylWN0RQj8aCH4aQLEjO6DI=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HszQK+Q1avF43OHZ6L2Q8jy8LUvHt9eU1uGKHe0OD2Y=
+			kiPYqnf3XosmMt6DWiJOaqkyHB9UVF4a1g1FEVIh3Rk=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFcds0HPQ80yzFQFj5kZ8Mh74muXoR1hjsP5hkCT1T4=
+			yzIsqmNHE3Oi+mDnajxkcbtz2XDNLpkk/FiitdsPnKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

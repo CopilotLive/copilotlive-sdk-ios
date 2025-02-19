@@ -105,9 +105,10 @@ func initializeCopilotSDK() {
         
       // Define appearance settings for the Copilot UI
       let appearance = CopilotAppearance(
-          navigationBarBackgroundColor: "#E9FBFB", // Background for the navigation bar
-          backgroundColor: "#E9FBFB", // Background for the copilot view
-          navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
+          title: "Copilot Assistant", // Title displayed in the navigation bar
+          backgroundColor: "#FFFFFF", // Background for the copilot view
+          navigationBarTintColor: "#000000", // Tint for the navigation bar
+          navigationBarBackgroundColor: "#FFFFFF" // Background for the navigation bar
       )
         
       // Create a configuration object with the token, user data, and appearance settings
@@ -179,10 +180,11 @@ To set a custom appearance:
 
 ```swift
 let appearance = CopilotAppearance(
-                   navigationBarBackgroundColor: "#E9FBFB", // Background for the navigation bar
-                   backgroundColor: "#E9FBFB", // Background for the copilot view
-                   navigationBarTitle: "Copilot Assistant" // Title displayed in the navigation bar
-        )
+                      title: "Copilot Assistant", // Title displayed in the navigation bar
+                      backgroundColor: "#FFFFFF", // Background for the copilot view
+                      navigationBarTintColor: "#000000", // Tint for the navigation bar
+                      navigationBarBackgroundColor: "#FFFFFF" // Background for the navigation bar
+                 )
 Copilot.shared.setAppearance(appearance)
 ```
 
@@ -307,4 +309,6 @@ Displays the conversation interface on the specified view controller.
   - Verify that the SDK is correctly installed via SPM or CocoaPods.
 - **Error: "Failed to load Copilot"**
   - Ensure the configuration token is valid and accessible.
+- **Error: "No internet connection"**
+  - Check if the device has an active internet connection before initializing Copilot.
 
