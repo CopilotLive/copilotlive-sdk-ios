@@ -1945,21 +1945,28 @@
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 1761,
+      "length": 27,
+      "value": "\"https:\/\/www.copilot.live\/\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
       "length": 16,
       "value": "\"disconnectCall\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1822,
+      "offset": 1882,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1846,
+      "offset": 1906,
       "length": 6,
       "value": "\"open\""
     },
