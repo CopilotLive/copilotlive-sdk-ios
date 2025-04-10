@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		abm2tUUf2FLJKlIy3AxX/wl3VeM=
+		PkFuE68pBlQmKv45rn8Ht0B7ZII=
 		</data>
 		<key>Headers/CopilotSDK-Swift.h</key>
 		<data>
-		XrBk96+tuRV6wRnB9SPhBqqX6lg=
+		WM6XIimVxPWeU2okCYuhdG1Yb3c=
 		</data>
 		<key>Headers/CopilotSDK.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yYm5QoPVQWA8RUT7H7YC22Bi8BQ=
+		oEYvDigENpt3oX+7udnmOzC+N0Q=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		T5f/Zx3nKrCXuos+eIj5EutDlYs=
+		A+be1yxQc6MQPHMAfVtCUhhj6zc=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gOSvZNybBC8vG6renWrT8YOpelw=
+		yc5GL8yC8tAZJJ5j6aLixNQBeME=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KyVbUOkV+3VvTlJFtSyzYkFmrtA=
+		ZJfst6fpgmHk/e8wtPlDEJA5JuU=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gOSvZNybBC8vG6renWrT8YOpelw=
+		yc5GL8yC8tAZJJ5j6aLixNQBeME=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DHG7BTm2mMHf6iEIlCVNhYO1aTU=
+		Tl65Yif1sNXE8nC449IvKoYdA98=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		T5f/Zx3nKrCXuos+eIj5EutDlYs=
+		A+be1yxQc6MQPHMAfVtCUhhj6zc=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x5J/yiawzJJXeNLBciYzMcxVUKk=
+		CwGqaf2GIZjJiu+kyNzO+eIO4+s=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ybiXJJ3sCdv6sZ12vQNAqkQPNVo=
+		PehrnBqoeGOuiwIUhHb8RALCzhY=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x5J/yiawzJJXeNLBciYzMcxVUKk=
+		CwGqaf2GIZjJiu+kyNzO+eIO4+s=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oPmuTak21lZ8lO7dL4p7k45kAB0=
+		F03xWjASsnzDKSXsdVJeAGekAHk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fti1Z4FHwxjufAXeSay2teqrH6JD9X/DXqIPDkDN/8U=
+			J1Q3GW6JxF/GrmVQAxKT04s1IW6cqNw2AA1GwhzU27U=
 			</data>
 		</dict>
 		<key>Headers/CopilotSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4NXeuY9wkVoe46B7VrKKZ9+YFKgcJFxbbo5aQZq7OtE=
+			3v944Po9B4DdYuLe0iks+NKawTgMI4L03BbJ+ttzCPc=
 			</data>
 		</dict>
 		<key>Headers/CopilotSDK.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BTIfwHRRwftwk2Dg4MMLxmds/vhnx62xo25HQmqps/A=
+			adZn1XYXMm4mxxMZlQl5aVdkjYZos19OS4FKlQntS+o=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vARVx8ORLbPwVDnoqRqbQBu2BlazEPCovEhR2exU/aM=
+			uI3Hv60NfYDTTwASCQNMqjB2plbwsShLo7hB0wD62yE=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9RDDemAcYQXLvREeWf5Nj4Vc/1ztYYorvF2AfJWUexg=
+			lRV1AVccEX40ks0olnbqnyookpaPB9sgqfDV6LIU8r4=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vARVx8ORLbPwVDnoqRqbQBu2BlazEPCovEhR2exU/aM=
+			uI3Hv60NfYDTTwASCQNMqjB2plbwsShLo7hB0wD62yE=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1YIGEjGjnyCLGUkOqYyJTl1vNkZjz9BeXeJu90dnvOQ=
+			CIOF+w2HNpIFkgwB/jz7XzNU7ezLnuuj0EtUbl19e9M=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BTIfwHRRwftwk2Dg4MMLxmds/vhnx62xo25HQmqps/A=
+			adZn1XYXMm4mxxMZlQl5aVdkjYZos19OS4FKlQntS+o=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tS5PWffP/wUVXsAr2oEUZYM+dZLNv1B16TOr8rWmKsU=
+			UHHOEIWlOVQXD3vTSCyFO+r1rRRLKzLtNViSXzsl99A=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			quANpIPG8RyVeXeRoYIbz/1FDFDqpY07+pV9GeUzrRM=
+			rcXXnzt97ZMunCRukfUbJrB9O9rcVDjimCmgqqBBzqI=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tS5PWffP/wUVXsAr2oEUZYM+dZLNv1B16TOr8rWmKsU=
+			UHHOEIWlOVQXD3vTSCyFO+r1rRRLKzLtNViSXzsl99A=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DnqpP+vgn56zlKNV0UOtxJNZF3ShfUKr63IPRDLHcdE=
+			dKV7sRUgQ6z6N0uuRVXX1ZSOTPkPB26BkkyNNMZcrTM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

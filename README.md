@@ -9,7 +9,7 @@ The Copilot SDK is a robust framework designed for seamless integration into iOS
 
 1. **Login** to the [Copilot Platform](https://platform.copilot.live/)
 
-2. **Open your Copilot** and Navigate to the **Deploy** section to retrieve the integration token.
+2. **Open your Copilot** and Navigate to the **Deploy** section to retrieve the integration token. Refer to the [Mobile SDK Documentation](https://platform.copilot.live/docs/deployments/mobile/) for more details.
 
 ## Features
 
