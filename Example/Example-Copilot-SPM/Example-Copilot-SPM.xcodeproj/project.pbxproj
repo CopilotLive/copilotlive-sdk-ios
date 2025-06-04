@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4870844D2D3A645C00E95422 /* CopilotSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4870844C2D3A645C00E95422 /* CopilotSDK */; };
+		48837A562DE9B739009EDBC8 /* CopilotSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 48837A552DE9B739009EDBC8 /* CopilotSDK */; };
 		48D4AF212D383A53005F5C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF202D383A53005F5C5A /* AppDelegate.swift */; };
 		48D4AF232D383A53005F5C5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF222D383A53005F5C5A /* SceneDelegate.swift */; };
 		48D4AF252D383A53005F5C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF242D383A53005F5C5A /* ViewController.swift */; };
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4870844D2D3A645C00E95422 /* CopilotSDK in Frameworks */,
+				48837A562DE9B739009EDBC8 /* CopilotSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = "Example-Copilot-SPM";
 			packageProductDependencies = (
-				4870844C2D3A645C00E95422 /* CopilotSDK */,
+				48837A552DE9B739009EDBC8 /* CopilotSDK */,
 			);
 			productName = "Example-CoPilot-SPM";
 			productReference = 48D4AF1D2D383A53005F5C5A /* Example-Copilot-SPM.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 48D4AF142D383A53005F5C5A;
 			packageReferences = (
-				4870844B2D3A645C00E95422 /* XCRemoteSwiftPackageReference "sdk-ios" */,
+				48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */,
 			);
 			productRefGroup = 48D4AF1E2D383A53005F5C5A /* Products */;
 			projectDirPath = "";
@@ -373,20 +373,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4870844B2D3A645C00E95422 /* XCRemoteSwiftPackageReference "sdk-ios" */ = {
+		48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CopilotLive/sdk-ios";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4870844C2D3A645C00E95422 /* CopilotSDK */ = {
+		48837A552DE9B739009EDBC8 /* CopilotSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4870844B2D3A645C00E95422 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			package = 48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */;
 			productName = CopilotSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
