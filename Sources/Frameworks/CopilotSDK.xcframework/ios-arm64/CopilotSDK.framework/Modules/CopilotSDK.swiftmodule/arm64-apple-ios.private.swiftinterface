@@ -39,10 +39,32 @@ public struct CopilotAppearance {
   public var navigationBarBackgroundColor: Swift.String
   public init(title: Swift.String = "Copilot AI", backgroundColor: Swift.String = "#FFFFFF", navigationBarTintColor: Swift.String = "#000000", navigationBarBackgroundColor: Swift.String = "#FFFFFF")
 }
+public protocol TelemetryEvent {
+  var type: CopilotSDK.TelemetryEventType { get }
+  var parameters: [Swift.String : Any] { get }
+}
+public enum TelemetryEventType : Swift.Equatable {
+  case widgetLoad
+  case widgetOpen
+  case widgetClose
+  case userMessage
+  case userMessageStop
+  case assistantMessage
+  case assistantSuggestions
+  case ctaClick
+  case callConnect
+  case callDisconnect
+  case other(_: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public init(rawValue: Swift.String)
+  public static func == (a: CopilotSDK.TelemetryEventType, b: CopilotSDK.TelemetryEventType) -> Swift.Bool
+}
 public protocol CopilotDelegate : AnyObject {
-  func didLoadConversation()
-  func didFailToLoadConversation(withError error: Swift.String)
-  func didReceiveDeepLink(url: Swift.String)
+  func didReceiveError(_ error: Any)
+  func didReceiveDeepLink(_ url: Swift.String)
+  func didReceiveTelemetry(_ event: any CopilotSDK.TelemetryEvent)
 }
 @_hasMissingDesignatedInitializers final public class Copilot {
   public static let shared: CopilotSDK.Copilot
@@ -50,8 +72,11 @@ public protocol CopilotDelegate : AnyObject {
   final public func setUser(_ user: CopilotSDK.CopilotUser)
   final public func setAppearance(_ appearance: CopilotSDK.CopilotAppearance)
   final public func notifyLoginSuccess(_ user: CopilotSDK.CopilotUser)
-  final public func logout()
-  final public func showConversations(on controller: UIKit.UIViewController, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
+  final public func unsetUser()
+  final public func setContext(_ options: [Swift.String : Any])
+  final public func unsetContext()
+  final public func close(completion: (() -> Swift.Void)? = nil)
+  final public func open(on controller: UIKit.UIViewController, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
   final public func makeCall(on controller: UIKit.UIViewController, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
   @objc deinit
 }

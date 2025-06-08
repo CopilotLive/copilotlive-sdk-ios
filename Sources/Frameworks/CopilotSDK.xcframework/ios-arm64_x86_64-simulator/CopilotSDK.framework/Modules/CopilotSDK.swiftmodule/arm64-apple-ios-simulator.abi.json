@@ -1402,6 +1402,745 @@
         "moduleName": "CopilotSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "TelemetryEvent",
+        "printedName": "TelemetryEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryEventType",
+                "printedName": "CopilotSDK.TelemetryEventType",
+                "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK14TelemetryEventP4typeAA0cD4TypeOvp",
+            "mangledName": "$s10CopilotSDK14TelemetryEventP4typeAA0cD4TypeOvp",
+            "moduleName": "CopilotSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK14TelemetryEventP4typeAA0cD4TypeOvg",
+                "mangledName": "$s10CopilotSDK14TelemetryEventP4typeAA0cD4TypeOvg",
+                "moduleName": "CopilotSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.TelemetryEvent>",
+                "sugared_genericSig": "<Self where Self : CopilotSDK.TelemetryEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK14TelemetryEventP10parametersSDySSypGvp",
+            "mangledName": "$s10CopilotSDK14TelemetryEventP10parametersSDySSypGvp",
+            "moduleName": "CopilotSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK14TelemetryEventP10parametersSDySSypGvg",
+                "mangledName": "$s10CopilotSDK14TelemetryEventP10parametersSDySSypGvg",
+                "moduleName": "CopilotSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.TelemetryEvent>",
+                "sugared_genericSig": "<Self where Self : CopilotSDK.TelemetryEvent>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10CopilotSDK14TelemetryEventP",
+        "mangledName": "$s10CopilotSDK14TelemetryEventP",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TelemetryEventType",
+        "printedName": "TelemetryEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "widgetLoad",
+            "printedName": "widgetLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO10widgetLoadyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO10widgetLoadyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "widgetOpen",
+            "printedName": "widgetOpen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO10widgetOpenyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO10widgetOpenyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "widgetClose",
+            "printedName": "widgetClose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO11widgetCloseyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO11widgetCloseyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessage",
+            "printedName": "userMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO11userMessageyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO11userMessageyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageStop",
+            "printedName": "userMessageStop",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO15userMessageStopyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO15userMessageStopyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assistantMessage",
+            "printedName": "assistantMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO16assistantMessageyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO16assistantMessageyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assistantSuggestions",
+            "printedName": "assistantSuggestions",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO20assistantSuggestionsyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO20assistantSuggestionsyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ctaClick",
+            "printedName": "ctaClick",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO8ctaClickyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO8ctaClickyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callConnect",
+            "printedName": "callConnect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO11callConnectyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO11callConnectyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "callDisconnect",
+            "printedName": "callDisconnect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO14callDisconnectyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO14callDisconnectyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> (Swift.String) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> CopilotSDK.TelemetryEventType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO5otheryACSScACmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO5otheryACSScACmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO8rawValueSSvp",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO8rawValueSSvp",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10CopilotSDK18TelemetryEventTypeO8rawValueSSvg",
+                "mangledName": "$s10CopilotSDK18TelemetryEventTypeO8rawValueSSvg",
+                "moduleName": "CopilotSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryEventType",
+                "printedName": "CopilotSDK.TelemetryEventType",
+                "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO8rawValueACSS_tcfc",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO8rawValueACSS_tcfc",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryEventType",
+                "printedName": "CopilotSDK.TelemetryEventType",
+                "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryEventType",
+                "printedName": "CopilotSDK.TelemetryEventType",
+                "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "CopilotSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10CopilotSDK18TelemetryEventTypeO",
+        "mangledName": "$s10CopilotSDK18TelemetryEventTypeO",
+        "moduleName": "CopilotSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1418,32 +2157,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "didLoadConversation",
-            "printedName": "didLoadConversation()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10CopilotSDK0A8DelegateP19didLoadConversationyyF",
-            "mangledName": "$s10CopilotSDK0A8DelegateP19didLoadConversationyyF",
-            "moduleName": "CopilotSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
-            "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didFailToLoadConversation",
-            "printedName": "didFailToLoadConversation(withError:)",
+            "name": "didReceiveError",
+            "printedName": "didReceiveError(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1452,14 +2167,13 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "ProtocolComposition",
+                "printedName": "Any"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10CopilotSDK0A8DelegateP25didFailToLoadConversation9withErrorySS_tF",
-            "mangledName": "$s10CopilotSDK0A8DelegateP25didFailToLoadConversation9withErrorySS_tF",
+            "usr": "s:10CopilotSDK0A8DelegateP15didReceiveErroryyypF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP15didReceiveErroryyypF",
             "moduleName": "CopilotSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
             "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
@@ -1473,7 +2187,7 @@
           {
             "kind": "Function",
             "name": "didReceiveDeepLink",
-            "printedName": "didReceiveDeepLink(url:)",
+            "printedName": "didReceiveDeepLink(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1488,8 +2202,38 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10CopilotSDK0A8DelegateP18didReceiveDeepLink3urlySS_tF",
-            "mangledName": "$s10CopilotSDK0A8DelegateP18didReceiveDeepLink3urlySS_tF",
+            "usr": "s:10CopilotSDK0A8DelegateP18didReceiveDeepLinkyySSF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP18didReceiveDeepLinkyySSF",
+            "moduleName": "CopilotSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
+            "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveTelemetry",
+            "printedName": "didReceiveTelemetry(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryEvent",
+                "printedName": "any CopilotSDK.TelemetryEvent",
+                "usr": "s:10CopilotSDK14TelemetryEventP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A8DelegateP19didReceiveTelemetryyyAA0F5Event_pF",
+            "mangledName": "$s10CopilotSDK0A8DelegateP19didReceiveTelemetryyyAA0F5Event_pF",
             "moduleName": "CopilotSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : CopilotSDK.CopilotDelegate>",
             "sugared_genericSig": "<Self where Self : CopilotSDK.CopilotDelegate>",
@@ -1699,8 +2443,8 @@
           },
           {
             "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
+            "name": "unsetUser",
+            "printedName": "unsetUser()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1709,8 +2453,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10CopilotSDK0A0C6logoutyyF",
-            "mangledName": "$s10CopilotSDK0A0C6logoutyyF",
+            "usr": "s:10CopilotSDK0A0C9unsetUseryyF",
+            "mangledName": "$s10CopilotSDK0A0C9unsetUseryyF",
             "moduleName": "CopilotSDK",
             "declAttributes": [
               "Final",
@@ -1721,8 +2465,119 @@
           },
           {
             "kind": "Function",
-            "name": "showConversations",
-            "printedName": "showConversations(on:initialMessage:initialValue:delegate:)",
+            "name": "setContext",
+            "printedName": "setContext(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C10setContextyySDySSypGF",
+            "mangledName": "$s10CopilotSDK0A0C10setContextyySDySSypGF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsetContext",
+            "printedName": "unsetContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C12unsetContextyyF",
+            "mangledName": "$s10CopilotSDK0A0C12unsetContextyyF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10CopilotSDK0A0C5close10completionyyycSg_tF",
+            "mangledName": "$s10CopilotSDK0A0C5close10completionyyycSg_tF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(on:initialMessage:initialValue:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1782,8 +2637,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10CopilotSDK0A0C17showConversations2on14initialMessage0F5Value8delegateySo16UIViewControllerC_SSSgAkA0A8Delegate_pSgtF",
-            "mangledName": "$s10CopilotSDK0A0C17showConversations2on14initialMessage0F5Value8delegateySo16UIViewControllerC_SSSgAkA0A8Delegate_pSgtF",
+            "usr": "s:10CopilotSDK0A0C4open2on14initialMessage0E5Value8delegateySo16UIViewControllerC_SSSgAkA0A8Delegate_pSgtF",
+            "mangledName": "$s10CopilotSDK0A0C4open2on14initialMessage0E5Value8delegateySo16UIViewControllerC_SSSgAkA0A8Delegate_pSgtF",
             "moduleName": "CopilotSDK",
             "declAttributes": [
               "Final",
@@ -2002,6 +2857,20 @@
       "value": "\"#FFFFFF\""
     },
     {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Coversations\/CopilotConversationsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4632,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotTelemetry.swift",
+      "kind": "Dictionary",
+      "offset": 3453,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/InternalWebView\/InternalWebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 490,
@@ -2018,107 +2887,142 @@
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1455,
+      "offset": 1627,
       "length": 15,
       "value": "\"Network Issue\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1509,
+      "offset": 1681,
       "length": 46,
       "value": "\"Check your internet connection and try again\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1748,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1783,
       "length": 14,
       "value": "\"showTitleBar\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1652,
+      "offset": 1824,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1867,
       "length": 33,
       "value": "\"https:\/\/script.copilot.live\/v1\/\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1761,
+      "offset": 1933,
       "length": 27,
       "value": "\"https:\/\/www.copilot.live\/\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 2020,
       "length": 16,
       "value": "\"disconnectCall\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 2054,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1906,
+      "offset": 2078,
       "length": 6,
       "value": "\"open\""
     },
     {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 11,
+      "value": "\"telemetry\""
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2229,
+      "length": 19,
+      "value": "\"copilotDidDismiss\""
+    },
+    {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 904,
+      "offset": 960,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 977,
+      "offset": 1033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1388,
+      "offset": 1464,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1517,
+      "offset": 1562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1569,
+      "offset": 1692,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1744,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotWebViewManager.swift",
+      "kind": "Array",
+      "offset": 1791,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/sagarkumar\/Library\/Developer\/Xcode\/DerivedData\/CopilotSDK-cwziooxgxrgwkgbrmcqgkqqjjhmh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CopilotSDK\/IntermediateBuildFilesPath\/CopilotSDK.build\/Release-iphonesimulator\/CopilotSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
