@@ -132,7 +132,7 @@ let user = CopilotUser(
     phoneNumber: "", // The user's phone number
     profileImageUrl: "", // URL for the user's profile image
     emailAddress: "", // The user's email address
-    userIdentifier: "" // A unique identifier for the user
+    userIdentifier: "", // A unique identifier for the user
     additionalFields: [:] // Additional details like age, gender, or interests for improved chatbot responses.
 )
 ```
@@ -246,30 +246,40 @@ extension MyViewController: CopilotDelegate {
 
     /// Called when a telemetry event is triggered by the Copilot.
     /// - Parameter event: A telemetry event containing a type and optional parameters.
-    func didReceiveTelemetry(_ event: TelemetryEvent) {
+        func didReceiveTelemetry(_ event: TelemetryEvent) {
         switch event.type {
         case .widgetLoad:
-            // Copilot SDK initialized
+            print("Widget loaded")
+            
         case .widgetOpen:
-            // Copilot opened by user
+            print("Widget opened")
+            
         case .widgetClose:
-            // Copilot closed by user
+            print("Widget closed")
+            
         case .userMessage:
-            // User sent a message
+            print("User message with params: \(event.parameters)")
+            
         case .userMessageStop:
-            // User clicked on stop button, which interrupts assistant message response
+            print("User message stopped with params: \(event.parameters)")
+            
         case .assistantMessage:
-            // Assistant sent a message
+            print("Assistant message with params: \(event.parameters)")
+            
         case .assistantSuggestions:
-            // Suggestions shown to the user
+            print("Assistant suggestions with params: \(event.parameters)")
+            
         case .ctaClick:
-            // User clicked a CTA (Call to Action)
+            print("CTA clicked with params: \(event.parameters)")
+            
         case .callConnect:
-            // Triggered when a user initiates or joins a voice call via Copilot
+            print("Call connected with params: \(event.parameters)")
+            
         case .callDisconnect:
-            // Triggered when a user ends or drops from the call
+            print("Call disconnected with params: \(event.parameters)")
+            
         case .other(let type):
-            // Represents any other custom event type
+            print("Other event (\(type)) with params: \(event.parameters)")
         }
     }
 }
@@ -332,7 +342,7 @@ Displays the conversation interface on the specified view controller.
 
 ### `makeCall`
 
- Initiates a voice call on the specified view controller.
+Initiates a voice call on the specified view controller.
 
 - **Parameters:**
   - `controller` (UIViewController): The view controller on which the voice call will be initiated.
