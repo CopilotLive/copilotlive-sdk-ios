@@ -100,7 +100,8 @@ func initializeCopilotSDK() {
          phoneNumber: "", // The user's phone number
          profileImageUrl: "", // URL for the user's profile image
          emailAddress: "", // The user's email address
-         userIdentifier: "" // A unique identifier for the user
+         userIdentifier: "", // A unique identifier for the user
+         additionalFields: [:] // Additional user information
       )
         
       // Define appearance settings for the Copilot UI
@@ -133,7 +134,7 @@ let user = CopilotUser(
     profileImageUrl: "", // URL for the user's profile image
     emailAddress: "", // The user's email address
     userIdentifier: "", // A unique identifier for the user
-    additionalFields: [:] // Additional details like age, gender, or interests for improved chatbot responses.
+    additionalFields: [:] // Additional user information
 )
 ```
 
