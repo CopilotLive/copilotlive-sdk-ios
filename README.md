@@ -39,7 +39,7 @@ To integrate the Copilot SDK using **Swift Package Manager**:
 5. Enter the package URL:
    
    ```ruby
-   https://github.com/CopilotLive/sdk-ios
+   https://github.com/CopilotLive/copilotlive-sdk-ios
    ```
    
 6. Choose the desired version or branch and click **Add Package**.
