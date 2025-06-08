@@ -258,25 +258,25 @@ extension MyViewController: CopilotDelegate {
             print("Widget closed")
             
         case .userMessage:
-            print("User message with params: \(event.parameters)")
+            print("User sent a message")
             
         case .userMessageStop:
-            print("User message stopped with params: \(event.parameters)")
+            print("User clicked on stop button, which interurpts assistant message response.")
             
         case .assistantMessage:
-            print("Assistant message with params: \(event.parameters)")
+            print("Assistant sent a message")
             
         case .assistantSuggestions:
-            print("Assistant suggestions with params: \(event.parameters)")
+            print("Suggestions shown")
             
         case .ctaClick:
-            print("CTA clicked with params: \(event.parameters)")
+            print("User clicked a CTA")
             
         case .callConnect:
-            print("Call connected with params: \(event.parameters)")
+            print("Triggered when a user initiates or joins a voice call via Copilot.")
             
         case .callDisconnect:
-            print("Call disconnected with params: \(event.parameters)")
+            print("Triggered when a user ends or drops from the call.")
             
         case .other(let type):
             print("Other event (\(type)) with params: \(event.parameters)")
