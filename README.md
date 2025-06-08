@@ -132,7 +132,8 @@ let user = CopilotUser(
     phoneNumber: "", // The user's phone number
     profileImageUrl: "", // URL for the user's profile image
     emailAddress: "", // The user's email address
-    userIdentifier: "" // A unique identifier for the user
+    userIdentifier: "", // A unique identifier for the user
+    additionalFields: [:] // Additional details like age, gender, or interests for improved chatbot responses.
 )
 ```
 
@@ -171,7 +172,7 @@ This approach is particularly helpful in apps where user login is optional or de
 To log out the current user:
 
 ```swift
-Copilot.shared.logout()
+Copilot.shared.unsetUser()
 ```
 
 ### Customizing Appearance
@@ -200,7 +201,7 @@ import UIKit
 class MyViewController: UIViewController {
 
     func showConversation() {
-        Copilot.shared.showConversations(on: self, initialMessage: "Hello!", delegate: self)
+        Copilot.shared.open(on: self, initialMessage: "Hello!", delegate: self)
     }
 }
 ```
@@ -229,19 +230,57 @@ Conform to `CopilotDelegate` to handle conversation events:
 ```swift
 extension MyViewController: CopilotDelegate {
 
-    func didLoadConversation() {
-        print("Conversations successfully loaded.")
-        // Add additional logic, such as updating the UI or notifying the user
+    /// Called to notify about an error event from the Copilot.
+    /// - Parameter error: A generic error object or descriptive information.
+    func didReceiveError(_ error: Any) {
+        print("Error received: \(error)")
+        // Handle or log the error as appropriate
     }
 
-    func didFailToLoadConversation(withError error: String) {
-        print("Failed to load conversations: \(error)")
-        // Displaying an error message
-    }
-
-    func didReceiveDeepLink(url: String) {
+    /// Called when a deep link is received from the Copilot.
+    /// - Parameter url: The URL associated with the deep link.
+    func didReceiveDeepLink(_ url: String) {
         print("Deep link received: \(url)")
         // Handle the deep link, such as navigating to a specific screen
+    }
+
+    /// Called when a telemetry event is triggered by the Copilot.
+    /// - Parameter event: A telemetry event containing a type and optional parameters.
+        func didReceiveTelemetry(_ event: TelemetryEvent) {
+        switch event.type {
+        case .widgetLoad:
+            print("Widget loaded")
+            
+        case .widgetOpen:
+            print("Widget opened")
+            
+        case .widgetClose:
+            print("Widget closed")
+            
+        case .userMessage:
+            print("User sent a message")
+            
+        case .userMessageStop:
+            print("User clicked on stop button, which interurpts assistant message response.")
+            
+        case .assistantMessage:
+            print("Assistant sent a message")
+            
+        case .assistantSuggestions:
+            print("Suggestions shown")
+            
+        case .ctaClick:
+            print("User clicked a CTA")
+            
+        case .callConnect:
+            print("Triggered when a user initiates or joins a voice call via Copilot.")
+            
+        case .callDisconnect:
+            print("Triggered when a user ends or drops from the call.")
+            
+        case .other(let type):
+            print("Other event (\(type)) with params: \(event.parameters)")
+        }
     }
 }
 ```
@@ -262,7 +301,7 @@ Sets the authenticated user for the SDK.
 - **Parameters:**
   - `user` (CopilotUser): The user object to be set.
 
-### `logout`
+### `unsetUser`
 
 Logs out the currently authenticated user.
 
@@ -279,8 +318,19 @@ Sets the UI appearance for the SDK.
 
 - **Parameters:**
   - `appearance` (CopilotAppearance): The appearance object to be set.
+  
+### `setContext`
 
-### `showConversations`
+Sets the dynamic context in which Copilot operates (such as user session details, screen metadata, cart contents, etc.).
+
+- **Parameters:**
+  - `options` ([String: Any]): A dictionary containing key-value pairs for the context to be set.
+  
+### `unsetContext`
+
+Clears any previously set context from the Copilot SDK.
+
+### `open`
 
 Displays the conversation interface on the specified view controller.
 
@@ -292,12 +342,15 @@ Displays the conversation interface on the specified view controller.
 
 ### `makeCall`
 
- Initiates a voice call on the specified view controller.
+Initiates a voice call on the specified view controller.
 
 - **Parameters:**
   - `controller` (UIViewController): The view controller on which the voice call will be initiated.
   - `delegate` (CopilotDelegate?): The delegate to handle interaction events (optional).
 
+### `close`
+
+Closes the Copilot interface if it is currently open.
 
 ## Troubleshooting
 

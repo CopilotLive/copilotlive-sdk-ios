@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48837A562DE9B739009EDBC8 /* CopilotSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 48837A552DE9B739009EDBC8 /* CopilotSDK */; };
+		4894D90C2DF5433D003DCC33 /* CopilotSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4894D90B2DF5433D003DCC33 /* CopilotSDK */; };
 		48D4AF212D383A53005F5C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF202D383A53005F5C5A /* AppDelegate.swift */; };
 		48D4AF232D383A53005F5C5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF222D383A53005F5C5A /* SceneDelegate.swift */; };
 		48D4AF252D383A53005F5C5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4AF242D383A53005F5C5A /* ViewController.swift */; };
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48837A562DE9B739009EDBC8 /* CopilotSDK in Frameworks */,
+				4894D90C2DF5433D003DCC33 /* CopilotSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = "Example-Copilot-SPM";
 			packageProductDependencies = (
-				48837A552DE9B739009EDBC8 /* CopilotSDK */,
+				4894D90B2DF5433D003DCC33 /* CopilotSDK */,
 			);
 			productName = "Example-CoPilot-SPM";
 			productReference = 48D4AF1D2D383A53005F5C5A /* Example-Copilot-SPM.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = 48D4AF142D383A53005F5C5A;
 			packageReferences = (
-				48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */,
+				4894D90A2DF5433D003DCC33 /* XCRemoteSwiftPackageReference "copilotlive-sdk-ios" */,
 			);
 			productRefGroup = 48D4AF1E2D383A53005F5C5A /* Products */;
 			projectDirPath = "";
@@ -298,11 +298,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83PGQ2GLB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Example-CoPilot-SPM/Info.plist";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) requires access to microphones";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Example-Copilot-SPM requires access to microphones";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,8 +315,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copilot.mobilesdk.Example-CoPilot-SPM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.copilot.mobilesdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,11 +329,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83PGQ2GLB3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Example-CoPilot-SPM/Info.plist";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) requires access to microphones";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Example-Copilot-SPM requires access to microphones";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,8 +346,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.copilot.mobilesdk.Example-CoPilot-SPM";
+				PRODUCT_BUNDLE_IDENTIFIER = com.copilot.mobilesdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,20 +379,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */ = {
+		4894D90A2DF5433D003DCC33 /* XCRemoteSwiftPackageReference "copilotlive-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/CopilotLive/sdk-ios";
+			repositoryURL = "https://github.com/CopilotLive/copilotlive-sdk-ios";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = 2.0.2;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		48837A552DE9B739009EDBC8 /* CopilotSDK */ = {
+		4894D90B2DF5433D003DCC33 /* CopilotSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 48837A542DE9B739009EDBC8 /* XCRemoteSwiftPackageReference "sdk-ios" */;
+			package = 4894D90A2DF5433D003DCC33 /* XCRemoteSwiftPackageReference "copilotlive-sdk-ios" */;
 			productName = CopilotSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
