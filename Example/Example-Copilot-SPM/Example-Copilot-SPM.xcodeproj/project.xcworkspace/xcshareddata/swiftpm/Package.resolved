@@ -1,13 +1,13 @@
 {
-  "originHash" : "52bb3ddc512c27dfcc404e3211c9769b18b3320306acb8dc46df781a932e1216",
+  "originHash" : "240c7502c2c666a9c08bee1e9c668c68dcf97e955e03ad25f5eb4e53a24bea9a",
   "pins" : [
     {
-      "identity" : "sdk-ios",
+      "identity" : "copilotlive-sdk-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/CopilotLive/sdk-ios",
+      "location" : "https://github.com/CopilotLive/copilotlive-sdk-ios",
       "state" : {
-        "revision" : "4a28abd51b33327aad11fee37506fdb5065c0050",
-        "version" : "2.0.0"
+        "branch" : "2.0.2",
+        "revision" : "3f9998580a2da237a01bed4e0bf9b2e4df616873"
       }
     }
   ],
