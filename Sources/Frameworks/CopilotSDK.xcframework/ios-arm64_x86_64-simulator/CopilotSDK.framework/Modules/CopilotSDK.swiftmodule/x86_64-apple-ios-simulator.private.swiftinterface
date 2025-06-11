@@ -51,6 +51,7 @@ public enum TelemetryEventType : Swift.Equatable {
   case userMessageStop
   case assistantMessage
   case assistantSuggestions
+  case assistantComponentItemsView
   case ctaClick
   case callConnect
   case callDisconnect

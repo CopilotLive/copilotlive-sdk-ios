@@ -1835,6 +1835,46 @@
           },
           {
             "kind": "Var",
+            "name": "assistantComponentItemsView",
+            "printedName": "assistantComponentItemsView",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CopilotSDK.TelemetryEventType.Type) -> CopilotSDK.TelemetryEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TelemetryEventType",
+                    "printedName": "CopilotSDK.TelemetryEventType",
+                    "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CopilotSDK.TelemetryEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelemetryEventType",
+                        "printedName": "CopilotSDK.TelemetryEventType",
+                        "usr": "s:10CopilotSDK18TelemetryEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10CopilotSDK18TelemetryEventTypeO27assistantComponentItemsViewyA2CmF",
+            "mangledName": "$s10CopilotSDK18TelemetryEventTypeO27assistantComponentItemsViewyA2CmF",
+            "moduleName": "CopilotSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "ctaClick",
             "printedName": "ctaClick",
             "children": [
@@ -2866,7 +2906,7 @@
     {
       "filePath": "\/Users\/sagarkumar\/code\/copilot\/mobile-sdk-ios-client\/SDK\/CopilotSDK\/Sources\/Core\/CopilotTelemetry.swift",
       "kind": "Dictionary",
-      "offset": 3453,
+      "offset": 3695,
       "length": 3,
       "value": "[]"
     },

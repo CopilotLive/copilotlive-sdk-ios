@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pJ9FHYGfBIRdjP+CbUU796jijWQ=
+		HCI1by9qt9eU/fYpU09BIOljUDo=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ftlig2MJ24tWBCjIfe8JeOPfi14=
+		IG0qv8ADlOtKvb44DMVG3KVLwXk=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QaITKFHP8fyVRxn/KS4sp13csSs=
+		OlXDHr40nILa3b/4xfoa61tV7dE=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ftlig2MJ24tWBCjIfe8JeOPfi14=
+		IG0qv8ADlOtKvb44DMVG3KVLwXk=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dmwoUTFXQOqS/ok4QGLxDPrG3g4=
+		GwLy5ZjQS+0+FFbgvJTl4d62JCE=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pJ9FHYGfBIRdjP+CbUU796jijWQ=
+		HCI1by9qt9eU/fYpU09BIOljUDo=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/q5sraKmmYquYmJBT4vfyD62JC4=
+		fprH7GUNML4wCQj1YLgXgVo6fdU=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vITPEbWwJnHheyagfYhG8Vqi7Cc=
+		cDwpJmX/YQ7T1nYbbQ37ZpXTDQU=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/q5sraKmmYquYmJBT4vfyD62JC4=
+		fprH7GUNML4wCQj1YLgXgVo6fdU=
 		</data>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y/J2t6AyvrIvs67KIfraFDKcjF4=
+		7I4XUHLTbK1QXJBoI6oepicKUwo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXKT4Qr+R+GON/7rZkkEz1evguBh+1bkOdVpujldlvY=
+			f+AfoCUm5WPYXtXZFfK0wfdbX30xbzS/Lht7weyCPAo=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yJbA3VpUMquS7PVmvaNiQ6/ddxnEytlTFY8pX2ybMjw=
+			e457CMfxPOVbAits4cHXpjwSQZWBLdQWX7g5yPnWWyU=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			42jwtd+DK/hV3AT6krG3jDbuJ8LgVmlR90mvf9dCHa8=
+			rRTuiMWcHPQw5xHYaw2lTJhA1PxQODfEQqQhF7AT/j4=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yJbA3VpUMquS7PVmvaNiQ6/ddxnEytlTFY8pX2ybMjw=
+			e457CMfxPOVbAits4cHXpjwSQZWBLdQWX7g5yPnWWyU=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rABCLAeJl5eZYlBgcmjyHPIZXP67MCpcBtUsbEZ8+QI=
+			sGXawICuWrPCEDfOVlnthm4lLI7RMn7ciKl5hzKZE9Q=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXKT4Qr+R+GON/7rZkkEz1evguBh+1bkOdVpujldlvY=
+			f+AfoCUm5WPYXtXZFfK0wfdbX30xbzS/Lht7weyCPAo=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4Ujs3siKD6ipFbEkIYx4c3RQpi80oZYTzBXpUi8BRE=
+			98yquwRlBPbfouyj7xC4tcnCqtdJLgEYu4xhqkWJtuI=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w6UO66ahF5wL6cPgmR5i1MvL/QUyfq9F0BxlRWWKPbQ=
+			Y4RMzRySbOnUgBv0MaxNwlzjOu3SXva1aje1DKIL94s=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4Ujs3siKD6ipFbEkIYx4c3RQpi80oZYTzBXpUi8BRE=
+			98yquwRlBPbfouyj7xC4tcnCqtdJLgEYu4xhqkWJtuI=
 			</data>
 		</dict>
 		<key>Modules/CopilotSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3HNq4o0Q5p2uSlOXEvByoNOAsApiBLcjvL4QHb+pRSU=
+			NScm5KdCBYjdKlaziWQgiyry4gBDaANhP5eo5zasglE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
