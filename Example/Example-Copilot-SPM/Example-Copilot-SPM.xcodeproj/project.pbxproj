@@ -383,7 +383,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CopilotLive/copilotlive-sdk-ios";
 			requirement = {
-				branch = 2.0.2;
+				branch = main;
 				kind = branch;
 			};
 		};

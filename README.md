@@ -270,6 +270,9 @@ extension MyViewController: CopilotDelegate {
         case .assistantSuggestions:
             print("Suggestions shown")
             
+        case .assistantComponentItemsView:
+            print("Assistant component items view")
+            
         case .ctaClick:
             print("User clicked a CTA")
             

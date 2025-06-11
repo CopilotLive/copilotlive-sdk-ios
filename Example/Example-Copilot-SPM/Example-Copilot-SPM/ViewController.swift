@@ -97,6 +97,9 @@ extension ViewController: CopilotDelegate {
         case .assistantSuggestions:
             print("Assistant suggestions with params: \(event.parameters)")
             
+        case .assistantComponentItemsView:
+            print("Assistant component items view with params: \(event.parameters)")
+
         case .ctaClick:
             print("CTA clicked with params: \(event.parameters)")
             
