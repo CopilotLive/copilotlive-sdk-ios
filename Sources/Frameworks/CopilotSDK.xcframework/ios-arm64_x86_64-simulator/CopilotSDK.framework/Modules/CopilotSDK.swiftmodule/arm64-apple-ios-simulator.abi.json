@@ -3067,14 +3067,14 @@
     {
       "filePath": "\/Users\/sagarkumar\/Library\/Developer\/Xcode\/DerivedData\/CopilotSDK-cwziooxgxrgwkgbrmcqgkqqjjhmh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CopilotSDK\/IntermediateBuildFilesPath\/CopilotSDK.build\/Release-iphonesimulator\/CopilotSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 829,
+      "offset": 736,
       "length": 14,
       "value": "\"copilot_back\""
     },
     {
       "filePath": "\/Users\/sagarkumar\/Library\/Developer\/Xcode\/DerivedData\/CopilotSDK-cwziooxgxrgwkgbrmcqgkqqjjhmh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CopilotSDK\/IntermediateBuildFilesPath\/CopilotSDK.build\/Release-iphonesimulator\/CopilotSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 883,
       "length": 14,
       "value": "\"copilot_more\""
     }
