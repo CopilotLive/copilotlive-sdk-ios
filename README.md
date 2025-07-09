@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Copilot SDK is a robust framework designed for seamless integration into iOS applications, offering a streamlined experience for developers. It supports both Swift Package Manager (SPM) and CocoaPods, ensuring flexibility and ease of integration. The minimum deployment target is iOS 13.
+The Copilot SDK is a robust framework designed for seamless integration into iOS applications, offering a streamlined experience for developers. It supports both Swift Package Manager (SPM) and CocoaPods, ensuring flexibility and ease of integration. The minimum deployment target is iOS 14.
 
 ## SDK Requirements
 
@@ -14,7 +14,7 @@ The Copilot SDK is a robust framework designed for seamless integration into iOS
 ## Features
 
 - Easy integration with SPM and CocoaPods.
-- Compatible with iOS 13 and later.
+- Compatible with iOS 14 and later.
 - Modular and extensible design.
 - Lightweight and optimized for performance.
 - Provides **conversation interfaces**, **deep linking capabilities**, and **voice call assistance**.
@@ -22,7 +22,7 @@ The Copilot SDK is a robust framework designed for seamless integration into iOS
 
 ## Requirements
 
-- **iOS Version:** iOS 13+
+- **iOS Version:** iOS 14+
 - **Languages:** Swift, Objective-C
 - **Package Managers:** SPM, CocoaPods
 
@@ -361,7 +361,7 @@ Closes the Copilot interface if it is currently open.
 ### Common Issues
 
 - **Error: "Unsupported iOS version"**
-  - Ensure the deployment target is set to iOS 13 or later.
+  - Ensure the deployment target is set to iOS 14 or later.
 - **Error: "Module not found"**
   - Verify that the SDK is correctly installed via SPM or CocoaPods.
 - **Error: "Failed to load Copilot"**
