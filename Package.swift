@@ -8,7 +8,7 @@ let package = Package(
     name: "CopilotSDK",
     defaultLocalization: "en", 
     platforms: [
-        .iOS(.v13)  // Set the minimum iOS version you are targeting
+        .iOS(.v14)  // Set the minimum iOS version you are targeting
     ],
     products: [
         .library(
