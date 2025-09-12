@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CopilotSDK"
-  spec.version      = "2.0.0"
+  spec.version      = "2.2.0"
   spec.summary      = "iOS CopilotSDK."
 
   # This description is used to generate tags and improve search results.
@@ -61,7 +61,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/CopilotLive/sdk-ios.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/CopilotLive/copilotlive-sdk-ios.git", :tag => spec.version.to_s }
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -19,6 +19,7 @@ The Copilot SDK is a robust framework designed for seamless integration into iOS
 - Lightweight and optimized for performance.
 - Provides **conversation interfaces**, **deep linking capabilities**, and **voice call assistance**.
 - Supports **user authentication** and **UI appearance customization**.
+- Dynamic tool registration and runtime tool calling using LLM for in-app actions.
 
 ## Requirements
 
@@ -123,6 +124,58 @@ func initializeCopilotSDK() {
       Copilot.shared.initialize(with: config)
 }
 
+```
+
+### Dynamic Tool Registration with LLM
+The Copilot SDK allows you to dynamically register and unregister custom tools (actions) that the LLM can invoke during a conversation. This enables you to extend the
+assistant's capabilities at runtime.
+
+#### Registering Tools
+You can register a tool by creating a CopilotTool and passing it to Copilot.shared.registerTool:
+
+``` swift
+let addToCartTool = CopilotTool(
+    name: "add_item_to_cart",
+    description: "Add product to cart",
+    parameters: CopilotSchema(
+        properties: [
+            "product_id": CopilotSchemaField(type: "string", description: "ID of the product"),
+            "quantity": CopilotSchemaField(type: "number", description: "Quantity to add")
+        ],
+        required: ["product_id", "quantity"]
+    )
+) { params in
+    let productId = params["product_id"] as? String ?? "unknown"
+    let quantity = (params["quantity"] as? NSNumber)?.intValue ?? 1
+    return CopilotToolResult(success: true, message: "Added \(quantity) of \(productId) to cart")
+}
+
+Copilot.shared.registerTool(addToCartTool)
+```
+
+To register multiple tools:
+
+```swift   
+Copilot.shared.registerTools([addToCartTool])
+```
+
+#### Unregistering Tools
+To remove a single tool:
+
+```swift   
+Copilot.shared.unregisterTool(named: "add_item_to_cart") // Pass tool name
+```
+
+To remove multiple tools:
+
+```swift   
+Copilot.shared.unregisterTools(named: ["add_item_to_cart", "open_cart"]) // Pass tool name
+```
+
+To remove all tools:
+
+```swift   
+Copilot.shared.clearAllTools() 
 ```
 
 ### User Management
@@ -297,6 +350,38 @@ Initializes the SDK with the provided configuration.
 
 - **Parameters:**
   - `config` (CopilotConfig): The configuration containing the token, user details, and UI appearance.
+  
+### `registerTool`
+
+Registers a single LLM tool for runtime usage.
+
+- **Parameters:**
+  - `tool` (CopilotTool): Tool to be registered.
+  
+### `registerTools`
+
+Registers multiple tools at once.
+
+- **Parameters:**
+  - `tools` ([CopilotTool]): List of tools.
+  
+### `unregisterTool`
+
+Unregisters a tool by its name.
+
+- **Parameters:**
+  - `named` (String): Name of the tool to unregister.
+  
+### `unregisterTools`
+
+Unregisters multiple tools by name.
+
+- **Parameters:**
+  - `named` ([String]): List of tool names to unregister.
+  
+### `clearAllTools`
+
+Removes all registered tools.
 
 ### `setUser`
 

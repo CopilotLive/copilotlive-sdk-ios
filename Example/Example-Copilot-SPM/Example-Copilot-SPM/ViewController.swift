@@ -24,6 +24,31 @@ class ViewController: UIViewController {
         showConversations()
     }
     
+    @IBAction func registerTool(_ sender: Any) {
+        let addToCartTool = CopilotTool(
+            name: "add_item_to_cart",
+            description: "Add product to cart",
+            parameters: CopilotSchema(
+                properties: [
+                    "product_id": CopilotSchemaField(type: "string", description: "ID of the product"),
+                    "quantity": CopilotSchemaField(type: "number", description: "Quantity to add")
+                ],
+                required: ["product_id", "quantity"]
+            )
+        ) { params in
+            let productId = params["product_id"] as? String ?? "unknown"
+            let quantity = (params["quantity"] as? NSNumber)?.intValue ?? 1
+            // Perform logic...
+            return CopilotToolResult(success: true, message: "Added \(quantity) of \(productId) to cart")
+        }
+
+        Copilot.shared.registerTool(addToCartTool)
+    }
+    
+    @IBAction func unregisterTool(_ sender: Any) {
+        Copilot.shared.unregisterTool(named: "add_item_to_cart")
+    }
+    
     @IBAction func logout(_ sender: Any) {
         Copilot.shared.unsetUser()
     }

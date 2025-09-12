@@ -77,7 +77,49 @@ public protocol CopilotDelegate : AnyObject {
   final public func setContext(_ options: [Swift.String : Any])
   final public func unsetContext()
   final public func close(completion: (() -> Swift.Void)? = nil)
+  final public func registerTool(_ tool: CopilotSDK.CopilotTool)
+  final public func registerTools(_ tools: [CopilotSDK.CopilotTool])
+  final public func unregisterTool(named name: Swift.String)
+  final public func unregisterTools(named names: [Swift.String])
+  final public func clearAllTools()
   final public func open(on controller: UIKit.UIViewController, initialMessage: Swift.String? = nil, initialValue: Swift.String? = nil, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
   final public func makeCall(on controller: UIKit.UIViewController, delegate: (any CopilotSDK.CopilotDelegate)? = nil)
   @objc deinit
+}
+public struct CopilotTool {
+  public let name: Swift.String
+  public let description: Swift.String
+  public let timeout: Swift.Int
+  public let parameters: CopilotSDK.CopilotSchema?
+  public let handler: (_ params: [Swift.String : Any]) async -> CopilotSDK.CopilotToolResult
+  public init(name: Swift.String, description: Swift.String, timeout: Swift.Int = 15000, parameters: CopilotSDK.CopilotSchema? = nil, handler: @escaping (_ params: [Swift.String : Any]) async -> CopilotSDK.CopilotToolResult)
+}
+public struct CopilotSchema : Swift.Codable {
+  public let type: Swift.String
+  public let properties: [Swift.String : CopilotSDK.CopilotSchemaField]
+  public let required: [Swift.String]
+  public init(type: Swift.String = "object", properties: [Swift.String : CopilotSDK.CopilotSchemaField], required: [Swift.String] = [])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CopilotSchemaField : Swift.Codable {
+  public let type: Swift.String
+  public let description: Swift.String
+  public init(type: Swift.String, description: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CopilotToolResult : Swift.Codable {
+  public let success: Swift.Bool
+  public let message: Swift.String
+  public let data: [Swift.String : CopilotSDK.AnyCodable]?
+  public init(success: Swift.Bool, message: Swift.String, data: [Swift.String : Any]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AnyCodable : Swift.Codable {
+  public let value: Any
+  public init(_ value: Any)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
