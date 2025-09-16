@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/CopilotLive/copilotlive-sdk-ios",
       "state" : {
-        "branch" : "feature/tool-call",
-        "revision" : "d4c2fcbc0062f6d338840682ef6a9e550804a469"
+        "revision" : "36a9f57a081b3fdaa3eecaac481b9fdbbddf0190",
+        "version" : "2.2.0"
       }
     }
   ],
